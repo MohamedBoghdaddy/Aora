@@ -4,10 +4,10 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { Ionicons } from "@expo/vector-icons"; // Icon import
-import HomeScreen from "../../MyProject/screens/HomeScreen";
-import DetailsScreen from "../../AuthScreens/LoginScreen";
-import SearchScreen from "../../MyProject/screens/SearchScreen";
-import ProfileScreen from "../../MyProject/screens/ProfileScreen";
+import HomeScreen from "./MyProject/screens/HomeScreen";
+import DetailsScreen from "./AuthScreens/LoginScreen";
+import SearchScreen from "./MyProject/screens/SearchScreen";
+import ProfileScreen from "./MyProject/screens/ProfileScreen";
 // import { TabBarIcon } from './components/navigation/TabBarIcon'; // Uncomment if TabBarIcon is needed
 
 // Create Navigators
